@@ -24,7 +24,7 @@ tests_requires = [
 ]
 
 install_requires = [
-    "cloudpickle~=0.6.1",
+    "cloudpickle~=0.8.0",
     "gevent~=1.2",
     "boto3~=1.5",
     "packaging~=19.0",
@@ -32,8 +32,8 @@ install_requires = [
     "future~=0.17.1",
     "tqdm~=4.19",
     "requests~=2.20",
-    "jsonschema~=2.6",
-    "matplotlib~=2.0",
+    "jsonschema~=3.0.1",
+    "matplotlib~=3.0.3",
     "numpy>=1.13",
     "simplejson~=3.13",
     "ruamel.yaml~=0.15.7",
@@ -49,7 +49,7 @@ extras_requires = {
               ],
     'tensorflow': ["sklearn-crfsuite~=0.3.6",
                    "scipy~=1.1",
-                   "tensorflow~=1.12",
+                   "tensorflow~=1.13.1",
                    "keras-applications==1.0.6",
                    "keras-preprocessing==1.0.5"
                    ],
